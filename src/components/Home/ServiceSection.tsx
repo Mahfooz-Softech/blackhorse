@@ -3,10 +3,10 @@ import ServiceCard from "../global/ServiceCard";
 import { BsPaintBucket } from "react-icons/bs";
 import meetingHeroImg from "../../../public/aboutSecImg.jpg";
 import { useEffect, useState } from "react";
-import { CountAnimation } from "../global/CountAnimation";
-import { IoBagHandleOutline } from "react-icons/io5";
-import { IoCloudDownloadOutline } from "react-icons/io5";
-import { LuMedal } from "react-icons/lu";
+// import { CountAnimation } from "../global/CountAnimation";
+// import { IoBagHandleOutline } from "react-icons/io5";
+// import { IoCloudDownloadOutline } from "react-icons/io5";
+// import { LuMedal } from "react-icons/lu";
 import { MdOutlineGraphicEq } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
 // import React, { useRef, useState } from 'react';
@@ -38,7 +38,7 @@ const ServiceSection = () => {
   return (
     <main className="relative">
       <div className="w-full  h-[2500px] md:h-[2000px] lg:h-[1000px] bg-primary absolute  -z-20" />
-      <div className="relative max-w-6xl mx-auto ">
+      <div className="relative max-w-6xl mx-auto pb-20 ">
         <HeadingSection />
         <div
           className="grid lg:grid-cols-4 md:grid-cols-2 mt-16 px-5 lg:px-0"
@@ -89,7 +89,7 @@ const ServiceSection = () => {
 
         </div>
         {/* count animation */}
-        <div className="relative my-28">
+        {/* <div className="relative my-28">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-col-1 lg:divide-x gap-8 lg:gap-0">
             <CountAnimation
               icon={
@@ -124,7 +124,7 @@ const ServiceSection = () => {
               text="Award Win"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );
